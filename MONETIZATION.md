@@ -1,6 +1,7 @@
 # Monetization and Services Around the Perspection Stack
 
-This document describes ways labor, tooling, and services may be offered around the Perspection governance stack.
+This document describes how labor, tooling, and services may be offered around the
+Perspection governance stack.
 
 It does not modify the public domain status of the governance documents.
 It does not grant ownership, exclusivity, or licensing rights over the stack.
@@ -20,16 +21,14 @@ No permission is required.
 
 ## Where monetization is appropriate
 
-Value can be exchanged for labor, judgment, and accountability.
+Value may be exchanged for labor, judgment, and accountability.
 Not for access to the ideas themselves.
 
-The following categories describe legitimate paid work around the stack.
-
-### 1. Audits and reviews
+### Audits and reviews
 
 Time-bounded, scope-limited analysis of an existing system.
 
-Examples:
+Examples include:
 - Refusal surface audits
 - Notification and obligation language audits
 - Threshold misuse analysis
@@ -38,68 +37,69 @@ Examples:
 Deliverables are observational reports.
 They do not confer approval, certification, or endorsement.
 
-### 2. Implementation services
+### Implementation services
 
 Paid work applying the stack to real systems.
 
-Examples:
+Examples include:
 - Integrating refusal patterns into software products
 - Rewriting copy to remove coercive or obligation-based language
 - Designing observation-only dashboards
-- Adapting the stack to specific domains such as healthcare, education, or AI tooling
+- Adapting the stack to specific domains
 
 Payment is for labor and execution, not for rights to the framework.
 
-### 3. Tooling
+### Tooling
 
-Optional paid tools that implement or operationalize the stack.
+Optional paid tools that operationalize the stack.
 
-Examples:
+Examples include:
 - Static site generators for governance references
-- Internal tooling that tracks language drift without enforcing action
+- Drift tracking tools
 - Visualization tools for refusal types and thresholds
 
 Tools may be licensed or sold.
 The underlying governance principles remain public domain.
 
-### 4. Education and writing
+### Education and writing
 
-Teaching and explanation, not access control.
+Explanation without restriction.
 
-Examples:
-- Books or essays explaining how to think with the stack
-- Courses or workshops on identifying coercion patterns
+Examples include:
+- Books and essays
+- Workshops and talks
 - Case studies of real-world implementations
 
-These do not restrict use of the stack itself.
+These do not gate access to the stack.
 
-### 5. Verification reports
+### Verification reports
 
 Verification is not certification.
 
-Examples:
+Examples include:
 - Independent assessments of whether a system matches its stated governance claims
-- Public or private reports describing alignment, mismatch, and ambiguity
+- Reports describing alignment, mismatch, and ambiguity
 
 No seals, badges, or exclusive status are implied.
 
-## What is explicitly not offered
+## What is not offered
 
-To prevent misrepresentation, the following are not provided:
+The following are explicitly not provided:
 
 - Exclusive licenses to the governance stack
 - Certification programs that grant authority over others
-- Ownership claims over implementations made by third parties
-- Enforcement of compliance
+- Ownership claims over third-party implementations
+- Enforcement or compliance services
 
 The stack does not govern people.
 It governs itself.
 
-## Boundary statement
+## Boundary
 
 Anyone may use the Perspection governance stack.
 No one owns it.
 
-Payment applies only to time, care, execution, and accountability brought to specific contexts.
+Payment applies only to time, care, execution, and accountability brought to
+specific contexts.
 
-If this distinction ever becomes unclear, the public domain status takes precedence.
+If this distinction becomes unclear, the public domain status takes precedence.
