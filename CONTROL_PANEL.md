@@ -14,12 +14,12 @@ It is not a roadmap promise.
 
 | Repository | Function | Current status | Publish posture |
 |---|---|---|---|
-| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary, ecosystem map, publish posture, and public copy source | Reference surface only |
+| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary, ecosystem map, publish posture, public copy source, and publish checklist | Reference surface only |
 | `7u4n3r/Trinity-tools` | Working build / Manus export / tool sandbox | Protected, homepage neutralized, build-confirmed | Sandbox / staging surface only |
-| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source, landing draft, and public copy source added | Trinity public site draft |
-| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source, landing draft, and public copy source added | Reclaimation public material draft |
-| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary, README, publish posture, and public copy source | Neutral reference library |
-| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing, publish posture, and public copy source | Civic navigation tool |
+| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source, landing draft, public copy source, and publish checklist added | Trinity public site draft |
+| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source, landing draft, public copy source, and publish checklist added | Reclaimation public material draft |
+| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary, README, publish posture, public copy source, and publish checklist | Neutral reference library |
+| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing, publish posture, public copy source, and publish checklist | Civic navigation tool |
 
 ## Primary rule
 
@@ -87,6 +87,7 @@ No project may redefine another project's purpose.
 - `ECOSYSTEM_MAP.md`
 - `CONTROL_PANEL.md`
 - `PUBLISH_ORGANIZE.md`
+- `PUBLISH_CHECKLIST.md`
 - `public/INDEX_COPY.md`
 - `governance/COPY_LINT.md`
 
@@ -111,6 +112,7 @@ No project may redefine another project's purpose.
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
+- `PUBLISH_CHECKLIST.md`
 - `drafts/TRINITY_METHOD_SOURCE.md`
 - `drafts/LANDING_PAGE_DRAFT.md`
 - `public/INDEX_COPY.md`
@@ -119,6 +121,7 @@ No project may redefine another project's purpose.
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
+- `PUBLISH_CHECKLIST.md`
 - `drafts/FACELESS_RECLAIMATION_HANDOUT_SOURCE.md`
 - `drafts/LANDING_PAGE_DRAFT.md`
 - `public/INDEX_COPY.md`
@@ -128,6 +131,7 @@ No project may redefine another project's purpose.
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `PUBLISH_ORGANIZE.md`
+- `PUBLISH_CHECKLIST.md`
 - `public/INDEX_COPY.md`
 
 ### ky-county-map
@@ -135,18 +139,19 @@ No project may redefine another project's purpose.
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `PUBLISH_ORGANIZE.md`
+- `PUBLISH_CHECKLIST.md`
 - `public/INDEX_COPY.md`
 
 ## Public copy status
 
-| Surface | Public copy source | Status |
-|---|---|---|
-| Perspection | `public/INDEX_COPY.md` | Public-ready source copy drafted |
-| Faceless Reclaimation | `public/INDEX_COPY.md` | Public-ready source copy drafted |
-| Trinity Framework | `public/INDEX_COPY.md` | Public-ready source copy drafted |
-| System Analysis Reference | `public/INDEX_COPY.md` | Public-ready source copy drafted |
-| KY County Map | `public/INDEX_COPY.md` | Public-ready source copy drafted |
-| Trinity Tools | `client/src/pages/Home.tsx` | Neutral sandbox homepage active and build-confirmed |
+| Surface | Public copy source | Publish checklist | Status |
+|---|---|---|---|
+| Perspection | `public/INDEX_COPY.md` | `PUBLISH_CHECKLIST.md` | Public-ready source copy drafted and checklist added |
+| Faceless Reclaimation | `public/INDEX_COPY.md` | `PUBLISH_CHECKLIST.md` | Public-ready source copy drafted and checklist added |
+| Trinity Framework | `public/INDEX_COPY.md` | `PUBLISH_CHECKLIST.md` | Public-ready source copy drafted and checklist added |
+| System Analysis Reference | `public/INDEX_COPY.md` | `PUBLISH_CHECKLIST.md` | Public-ready source copy drafted and checklist added |
+| KY County Map | `public/INDEX_COPY.md` | `PUBLISH_CHECKLIST.md` | Public-ready source copy drafted and checklist added |
+| Trinity Tools | `client/src/pages/Home.tsx` | `PUBLISH_ORGANIZE.md` | Neutral sandbox homepage active and build-confirmed |
 
 ## Publish posture by surface
 
@@ -166,25 +171,25 @@ Use description:
 
 ### trinity-framework-site
 
-Publish as the Trinity-specific public site only after the public copy source is reviewed.
+Publish as the Trinity-specific public site only after the public copy source and checklist are reviewed.
 
 Lead with structure, not ecosystem ownership.
 
 ### faceless-reclaimation
 
-Publish as the Reclaimation-facing public material body.
+Publish as the Reclaimation-facing public material body after the checklist is reviewed.
 
 It may carry story, artifact, zine, and lived-language energy.
 
 ### system-analysis-reference
 
-Publish as a neutral reference library for evidence, timelines, claims, and observed system behavior.
+Publish as a neutral reference library for evidence, timelines, claims, and observed system behavior after the checklist is reviewed.
 
 Keep claim, source, and interpretation separate.
 
 ### ky-county-map
 
-Publish as an ABLE-KY-aligned county navigation tool.
+Publish as an ABLE-KY-aligned county navigation tool after the checklist is reviewed.
 
 Keep it civic, practical, and route-focused.
 
@@ -208,8 +213,9 @@ When preparing material for public use, move in this order:
 2. Confirm the publish posture.
 3. Confirm the material belongs there.
 4. Check boundary language.
-5. Check whether related projects are labeled as related, not absorbed.
-6. Publish only the surface that matches the function.
+5. Check the relevant `PUBLISH_CHECKLIST.md`.
+6. Check whether related projects are labeled as related, not absorbed.
+7. Publish only the surface that matches the function.
 
 ## Manus instruction
 
@@ -243,4 +249,4 @@ Route first.
 Then rewrite.
 Then deploy.
 
-If the question is “is this public-ready?” check publish posture before changing code or copy.
+If the question is “is this public-ready?” check publish posture and publish checklist before changing code or copy.
