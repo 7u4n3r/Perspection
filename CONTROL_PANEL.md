@@ -4,7 +4,7 @@
 
 This is the ecosystem-level control panel for the current repository set.
 
-It exists so the projects can be routed, audited, and repaired without merging their identities.
+It exists so the projects can be routed, audited, repaired, and prepared for publishing without merging their identities.
 
 This file is not a public homepage.
 It is not product copy.
@@ -12,14 +12,14 @@ It is not a roadmap promise.
 
 ## Current repository set
 
-| Repository | Function | Current status |
-|---|---|---|
-| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary and ecosystem map |
-| `7u4n3r/Trinity-tools` | Working build / Manus export / tool sandbox | Protected, homepage neutralized, deploy checklist added |
-| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source draft added |
-| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source draft added |
-| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary and README |
-| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing |
+| Repository | Function | Current status | Publish posture |
+|---|---|---|---|
+| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary, ecosystem map, and publish posture | Reference surface only |
+| `7u4n3r/Trinity-tools` | Working build / Manus export / tool sandbox | Protected, homepage neutralized, build-confirmed | Sandbox / staging surface only |
+| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source and landing draft added | Trinity public site draft |
+| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source and landing draft added | Reclaimation public material draft |
+| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary, README, and publish posture | Neutral reference library |
+| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing and publish posture | Civic navigation tool |
 
 ## Primary rule
 
@@ -61,6 +61,7 @@ No project may redefine another project's purpose.
 - unsorted tool build
 - shared prototype
 - material awaiting classification
+- publish/deploy staging for experimental surfaces
 
 ### Put material in `system-analysis-reference` when it is:
 
@@ -85,6 +86,7 @@ No project may redefine another project's purpose.
 - `PROJECT_BOUNDARY.md`
 - `ECOSYSTEM_MAP.md`
 - `CONTROL_PANEL.md`
+- `PUBLISH_ORGANIZE.md`
 - `governance/COPY_LINT.md`
 
 ### Trinity-tools
@@ -94,8 +96,13 @@ No project may redefine another project's purpose.
 - `SORTING_MANIFEST.md`
 - `BUILD_HEALTH.md`
 - `DEPLOY_CHECKLIST.md`
+- `PUBLISH_ORGANIZE.md`
+- `INVENTORY.md`
 - `.gitignore`
+- `docs/ANALYTICS.md`
 - `docs/prompts/MANUS_RECOVERY_PROMPT.md`
+- `docs/prompts/MANUS_BUILD_CHECK_PROMPT.md`
+- `docs/prompts/MANUS_PUBLISH_ORGANIZE_PROMPT.md`
 - `docs/preserved/FACELESS_RECLAMATION_HANDOUT.md`
 - `docs/audits/HANDOUT_CLASSIFICATION.md`
 
@@ -104,22 +111,66 @@ No project may redefine another project's purpose.
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `drafts/TRINITY_METHOD_SOURCE.md`
+- `drafts/LANDING_PAGE_DRAFT.md`
 
 ### faceless-reclaimation
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `drafts/FACELESS_RECLAIMATION_HANDOUT_SOURCE.md`
+- `drafts/LANDING_PAGE_DRAFT.md`
 
 ### system-analysis-reference
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
+- `PUBLISH_ORGANIZE.md`
 
 ### ky-county-map
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
+- `PUBLISH_ORGANIZE.md`
+
+## Publish posture by surface
+
+### Perspection
+
+Publish as a governance/reference surface only.
+
+Do not publish as a method funnel, recovery sequence, or personal story body.
+
+### Trinity-tools
+
+Publish only as `Trinity Tools Sandbox` if needed.
+
+Use description:
+
+> Trinity Tools is a working sandbox for framework and interface experiments. Materials here may be preserved, tested, or routed into separate public projects.
+
+### trinity-framework-site
+
+Publish as the Trinity-specific public site only after the landing draft is reviewed.
+
+Lead with structure, not ecosystem ownership.
+
+### faceless-reclaimation
+
+Publish as the Reclaimation-facing public material body.
+
+It may carry story, artifact, zine, and lived-language energy.
+
+### system-analysis-reference
+
+Publish as a neutral reference library for evidence, timelines, claims, and observed system behavior.
+
+Keep claim, source, and interpretation separate.
+
+### ky-county-map
+
+Publish as an ABLE-KY-aligned county navigation tool.
+
+Keep it civic, practical, and route-focused.
 
 ## Repair order
 
@@ -130,20 +181,43 @@ When the system feels messy, repair in this order:
 3. Preserve the source before rewriting.
 4. Classify the source.
 5. Move or copy only after the destination is clear.
-6. Update the relevant README or boundary file if needed.
+6. Update the relevant README, boundary file, or publish posture if needed.
 7. Log the change in an issue or checkpoint file.
+
+## Publish order
+
+When preparing material for public use, move in this order:
+
+1. Confirm the repo function.
+2. Confirm the publish posture.
+3. Confirm the material belongs there.
+4. Check boundary language.
+5. Check whether related projects are labeled as related, not absorbed.
+6. Publish only the surface that matches the function.
 
 ## Manus instruction
 
 When using Manus, start with diagnosis.
 
-Do not let Manus redesign, merge identities, delete preserved files, or rewrite public copy until it has read the relevant boundary files.
+Do not let Manus redesign, merge identities, delete preserved files, add analytics, or rewrite public copy until it has read the relevant boundary files.
 
 Use:
 
 `7u4n3r/Trinity-tools/docs/prompts/MANUS_RECOVERY_PROMPT.md`
 
 when the build or preview becomes unstable.
+
+Use:
+
+`7u4n3r/Trinity-tools/docs/prompts/MANUS_BUILD_CHECK_PROMPT.md`
+
+when checking install/type/build health.
+
+Use:
+
+`7u4n3r/Trinity-tools/docs/prompts/MANUS_PUBLISH_ORGANIZE_PROMPT.md`
+
+when preparing the sandbox for publish/deployment review.
 
 ## Stop condition
 
@@ -152,3 +226,5 @@ If the question is “where does this go?” do not publish it yet.
 Route first.
 Then rewrite.
 Then deploy.
+
+If the question is “is this public-ready?” check publish posture before changing code or copy.
