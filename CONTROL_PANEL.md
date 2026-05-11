@@ -14,12 +14,12 @@ It is not a roadmap promise.
 
 | Repository | Function | Current status | Publish posture |
 |---|---|---|---|
-| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary, ecosystem map, and publish posture | Reference surface only |
+| `7u4n3r/Perspection` | Governance / reference spine | Protected with boundary, ecosystem map, publish posture, and public copy source | Reference surface only |
 | `7u4n3r/Trinity-tools` | Working build / Manus export / tool sandbox | Protected, homepage neutralized, build-confirmed | Sandbox / staging surface only |
-| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source and landing draft added | Trinity public site draft |
-| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source and landing draft added | Reclaimation public material draft |
-| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary, README, and publish posture | Neutral reference library |
-| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing and publish posture | Civic navigation tool |
+| `7u4n3r/trinity-framework-site` | Trinity-specific public site container | Protected, Trinity source, landing draft, and public copy source added | Trinity public site draft |
+| `7u4n3r/faceless-reclaimation` | Public Reclaimation-facing material | Protected, Reclaimation source, landing draft, and public copy source added | Reclaimation public material draft |
+| `7u4n3r/system-analysis-reference` | Neutral system-analysis reference | Protected with boundary, README, publish posture, and public copy source | Neutral reference library |
+| `7u4n3r/ky-county-map` | ABLE-KY county navigation tool | Protected with ABLE-KY framing, publish posture, and public copy source | Civic navigation tool |
 
 ## Primary rule
 
@@ -87,6 +87,7 @@ No project may redefine another project's purpose.
 - `ECOSYSTEM_MAP.md`
 - `CONTROL_PANEL.md`
 - `PUBLISH_ORGANIZE.md`
+- `public/INDEX_COPY.md`
 - `governance/COPY_LINT.md`
 
 ### Trinity-tools
@@ -112,6 +113,7 @@ No project may redefine another project's purpose.
 - `PROJECT_BOUNDARY.md`
 - `drafts/TRINITY_METHOD_SOURCE.md`
 - `drafts/LANDING_PAGE_DRAFT.md`
+- `public/INDEX_COPY.md`
 
 ### faceless-reclaimation
 
@@ -119,18 +121,32 @@ No project may redefine another project's purpose.
 - `PROJECT_BOUNDARY.md`
 - `drafts/FACELESS_RECLAIMATION_HANDOUT_SOURCE.md`
 - `drafts/LANDING_PAGE_DRAFT.md`
+- `public/INDEX_COPY.md`
 
 ### system-analysis-reference
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `PUBLISH_ORGANIZE.md`
+- `public/INDEX_COPY.md`
 
 ### ky-county-map
 
 - `README.md`
 - `PROJECT_BOUNDARY.md`
 - `PUBLISH_ORGANIZE.md`
+- `public/INDEX_COPY.md`
+
+## Public copy status
+
+| Surface | Public copy source | Status |
+|---|---|---|
+| Perspection | `public/INDEX_COPY.md` | Public-ready source copy drafted |
+| Faceless Reclaimation | `public/INDEX_COPY.md` | Public-ready source copy drafted |
+| Trinity Framework | `public/INDEX_COPY.md` | Public-ready source copy drafted |
+| System Analysis Reference | `public/INDEX_COPY.md` | Public-ready source copy drafted |
+| KY County Map | `public/INDEX_COPY.md` | Public-ready source copy drafted |
+| Trinity Tools | `client/src/pages/Home.tsx` | Neutral sandbox homepage active and build-confirmed |
 
 ## Publish posture by surface
 
@@ -150,7 +166,7 @@ Use description:
 
 ### trinity-framework-site
 
-Publish as the Trinity-specific public site only after the landing draft is reviewed.
+Publish as the Trinity-specific public site only after the public copy source is reviewed.
 
 Lead with structure, not ecosystem ownership.
 
