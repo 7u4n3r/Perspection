@@ -17,13 +17,14 @@ This document serves as the canonical "Source of Truth" for the maS Ripple ecosy
 | Perspection | Governance and reference spine for System Refusal | ACTIVE | GitHub (`7u4n3r/Perspection`) | System Refusal governance, copy lint, audits, observation-only constraints, code-reference material. |
 | Trinity Framework | Philosophical foundation and entry point for AI anxiety | ACTIVE | GitHub (`7u4n3r/trinity-framework-site`) + Web | Explanation, structure, diagrams, site presentation. |
 
-## 3. RECOVERY / SUPPORT
+## 3. RECLAIMATION SYSTEMS
 
 | Item | Role | Status | Platform | Notes |
 |---|---|---|---|---|
-| Faceless Recovery | Trauma-informed recovery methodology | ACTIVE | Web (Living Survival Guide, AI Training Platform, Symptom Checker Beta App) | Linked to Trinity Framework. URLs: `https://bpmgfkhx.manus.space`, `https://fijxcpsx.manus.space`, `https://zgcwwkjr.manus.space`. |
-| Living Survival Guide | Human-focused survival guide | ACTIVE | Web (`https://bpmgfkhx.manus.space`) | Part of Faceless Recovery. |
-| Symptom Checker | Interactive tool for understanding body's state | ACTIVE | Web (`https://zgcwwkjr.manus.space`) | Part of Faceless Recovery. |
+| Faceless Reclaimation | Human-centered reclaimation framework | ACTIVE | Web (Living Survival Guide, AI Training Platform, Symptom Checker Beta App) | Testimony + Support. Linked to Trinity Framework. URLs: `https://bpmgfkhx.manus.space`, `https://fijxcpsx.manus.space`, `https://zgcwwkjr.manus.space`. |
+| Living Survival Guide | Human-focused orientation/support guide | ACTIVE | Web (`https://bpmgfkhx.manus.space`) | Support. |
+| Symptom Checker | State awareness tool | ACTIVE | Web (`https://zgcwwkjr.manus.space`) | Reflection. |
+| AI Training Platform | Experimental translation/tooling layer | ACTIVE | Web (`https://fijxcpsx.manus.space`) | Experimentation. |
 
 ## 4. CREATIVE
 
