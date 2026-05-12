@@ -14,8 +14,8 @@ This document serves as the canonical "Source of Truth" for the maS Ripple ecosy
 
 | Item | Role | Status | Platform | Notes |
 |---|---|---|---|---|
-| Perspection | Governance and reference spine for System Refusal | ACTIVE | GitHub (`7u4n3r/Perspection`) | System Refusal governance, copy lint, audits, observation-only constraints, code-reference material. |
-| Trinity Framework | Philosophical foundation and entry point for AI anxiety | ACTIVE | GitHub (`7u4n3r/trinity-framework-site`) + Web | Explanation, structure, diagrams, site presentation. |
+| Perspection | Governance and reference spine for System Refusal | ACTIVE | GitHub (`7u4n3r/Perspection`) | System Refusal governance, copy lint, audits, observation-only constraints, code-reference material. Embeds humility and restraint within the architecture. |
+| Trinity Framework | Harm-reductive translation layer and stabilizer for AI anxiety | ACTIVE | GitHub (`7u4n3r/trinity-framework-site`) + Web | Explanation, structure, diagrams, site presentation. Focuses on preventing catastrophic failure while maintaining motion. |
 
 ## 3. RECLAIMATION SYSTEMS
 
@@ -38,7 +38,7 @@ This document serves as the canonical "Source of Truth" for the maS Ripple ecosy
 
 | Item | Role | Status | Platform | Notes |
 |---|---|---|---|---|
-| Fear Differential | (Assumed) Analytical tool | EXPERIMENTAL | TBD | Placeholder, needs further definition. |
+| Fear Differential | Observational tool for fear's impact on interpretation, motion, and system behavior | EXPERIMENTAL | TBD | Aims to prevent locked thinking, forced binaries, and oversteering under pressure. |
 | Launch Kits | Resources for launching projects | STABLE | Google Drive (`01_FRAMEWORKS_DEPLOYMENT/`) | Contains business planning, core content, monetization, digital presence, brand assets. |
 | Reflection Tools | Tools for self-reflection | STABLE | GitHub (`7u4n3r/Trinity-tools`) | Manus exports, UI experiments, Trinity tools, Reclaimation-facing handouts. |
 
@@ -85,7 +85,7 @@ Everything else branches outward from this central hub.
 ### Phase C — Reconnect Stable Systems (One at a time)
 
 *   Perspection
-*   Recovery (Faceless Recovery, Living Survival Guide, Symptom Checker)
+*   Reclaimation (Faceless Reclaimation, Living Survival Guide, Symptom Checker, AI Training Platform)
 *   Shop (Gumroad Products, Courses, Workshops)
 *   Testimony (Likely part of Faceless Reclaimation)
 *   Tools (Reflection Tools, Launch Kits)
